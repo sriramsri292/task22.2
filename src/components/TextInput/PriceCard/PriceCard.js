@@ -5,7 +5,6 @@ export default function PriceCard() {
     <section className="pricing py-5">
       <div className="container">
         <div className="row">
-
           <div className="col-lg-4">
             <div className="card mb-5 mb-lg-0">
               <div className="card-body">
@@ -17,17 +16,13 @@ export default function PriceCard() {
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>5GB Storage</li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
-                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Unlimited
-                    Private Projects</li>
-                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Dedicated
-                    Phone Support</li>
-                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Free Subdomain
-                  </li>
-                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status
-                    Reports</li>
+                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Unlimited Private Projects</li>
+                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Dedicated Phone Support</li>
+                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Free Subdomain</li>
+                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li>
                 </ul>
                 <div className="d-grid">
-                  <a href="#" className="btn btn-primary text-uppercase">Button</a>
+                  <button className="btn btn-primary text-uppercase">Button</button>
                 </div>
               </div>
             </div>
@@ -47,11 +42,10 @@ export default function PriceCard() {
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Private Projects</li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Dedicated Phone Support</li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Free Subdomain</li>
-                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status
-                    Reports</li>
+                  <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li>
                 </ul>
                 <div className="d-grid">
-                  <a href="#" className="btn btn-primary text-uppercase">Button</a>
+                  <button className="btn btn-primary text-uppercase">Button</button>
                 </div>
               </div>
             </div>
@@ -64,24 +58,21 @@ export default function PriceCard() {
                 <h6 className="card-price text-center">$49<span className="period">/month</span></h6>
                 <hr />
                 <ul className="fa-ul">
-                  <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Unlimited Users</strong>
-                  </li>
+                  <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>150GB Storage</li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Private Projects</li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Dedicated Phone Support</li>
-                  <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Unlimited</strong> Free
-                    Subdomains</li>
+                  <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Free</strong> Subdomain</li>
                   <li><span className="fa-li"><i className="fas fa-check"></i></span>Monthly Status Reports</li>
                 </ul>
                 <div className="d-grid">
-                  <a href="#" className="btn btn-primary text-uppercase">Button</a>
+                  <button className="btn btn-primary text-uppercase">Button</button>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
