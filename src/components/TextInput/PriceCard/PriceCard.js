@@ -1,7 +1,8 @@
 import React from "react";
 export default function PriceCard()
 {
-    return <section class="pricing py-5">
+    return (
+   <section class="pricing py-5">
     <div class="container">
       <div class="row">
        
@@ -80,7 +81,9 @@ export default function PriceCard()
             </div>
           </div>
         </div>
+                      
       </div>
     </div>
   </section>
 }
+)
